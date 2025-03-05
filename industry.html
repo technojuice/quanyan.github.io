@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业产品展示</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* 主要容器 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 标题样式 */
+        h1 {
+            text-align: center;
+            font-size: 1.2em;
+            color: #334dd2;
+            margin-bottom: 20px;
+        }
+
+        /* 介绍文字容器 */
+        .intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+
+        /* 文字介绍样式 */
+        .intro p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+            max-width: 800px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* 图片展示部分 */
+        .product-images {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        /* 单张图片样式 */
+        .product-images .image-left {
+            flex: 1;
+            max-width: 50%;
+            float: left;
+        }
+
+        .product-images .image-right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            flex: 1;
+            max-width: 45%;
+            float: left;
+        }
+
+        .product-images img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <h1>企业产品展示</h1>
+
+        <!-- 文字介绍 -->
+        <div class="intro">
+            <p>欢迎了解我们企业的产品设备。我们的设备采用先进技术，质量保证，广泛应用于各行各业。以下是我们的一些代表性产品，展示了其设计与功能。</p>
+        </div>
+
+        <!-- 图片展示 -->
+        <div class="product-images">
+            <div class="image-left">
+                <img src="https://i.imgs.ovh/2025/03/04/C09Mq.png" alt="C09Mq.png" border="0" />
+            </div>
+
+            <!-- 右边两张图片 -->
+            <div class="image-right">
+                <img src="https://i.imgs.ovh/2025/03/04/C0DGC.png" alt="C0DGC.png" border="0" />
+                <img src="https://i.imgs.ovh/2025/03/04/C0Pj4.png" alt="C0Pj4.png" border="0" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
